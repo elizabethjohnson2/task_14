@@ -237,12 +237,14 @@ br.clear {
   color: #fff;
 }
 #about {
-  background-image: url(../Assets/Vector\ 283.png);
+  background-image: url("../Assets/Vector\ 283.png");
   background-repeat: no-repeat;
   background-position: left;
   background-position-x: 3px;
   background-position-y: -7px;
   height: 700px;
+  position: relative;
+  top: -80px;
 }
 
 #about div.wrapper {
@@ -569,12 +571,14 @@ br.clear {
 }
 #work{
   padding: 285px 0;
-  background: url(../Assets/Vector\ 285.png);
+  background: url("../Assets/Vector\ 285.png");
   background-repeat: no-repeat;
   background-position: left;
   background-position-x: 3px;
-  background-position-y: -7px;
-  height: 700px;
+  background-position-y: -146px;
+  height: 968px;
+  margin-top: 200px;
+  background-size: 110%;
 }
 #work.wrapper{
 
@@ -587,6 +591,7 @@ br.clear {
 }
 #work section.content div.left{
   width: 50%;
+  margin-top: -85px;
 
 }
 #work section.content div.left h1{
@@ -632,10 +637,226 @@ br.clear {
   border-radius: 100% 89% 87% 98% / 80% 92% 100% 100%;
   width: 100%;
   display: block;
+  margin-top: -280px;
 
 }
+#brands {
+  padding: 150px 0;
+}
+
+#brands section.content {
+}
+
+#brands section.content div.top {
+  margin-bottom: 100px;
+}
+
+#brands section.content div.top h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#brands section.content div.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#brands section.content div.middle div.bg-img {
+  background: url("../Assets/Frame\ 3466320.png");
+  background-repeat: no-repeat;
+  background-size: 290px;
+  width: 50%;
+  background-position-x: 117px;
+  position: relative;
+}
+#brands section.content div.middle div.bg-img div.img {
+  position: absolute;
+  right: 150px;
+  bottom: 230px;
+  /* border: 6px solid #fff; */
+  /* border-radius: 50%; */
+  width: 29%;
+  height: 32%;
+}
+#brands section.content div.middle div.bg-img div.img img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
   
+}
 
+#brands section.content div.middle div.content {
+  width: 50%;
+  padding: 51px 0;
+}
 
+#brands section.content div.middle div.content h4 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#brands section.content div.middle div.content p {
+  font-size: 21px;
+}
+
+#brands section.content div.bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#brands section.content div.bottom h3.left {
+  font-size: 40px;
+  font-weight: 700;
+  width: 25%;
+}
+
+#brands section.content div.bottom ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#brands section.content div.bottom ul li {
+
+}
+
+#brands section.content div.bottom ul li a {
+}
+
+#brands section.content div.bottom ul li a img {
+  display: flex;
+  width: 100%;
+}
+footer {
+  background-image: url("../images/Vector\ 287.png");
+  background-size: cover;
+  position: relative;
+}
+footer div.greenbg {
+  background: #5e8c42;
+  height: 100vh;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  border-radius: 100% 89% 87% 98% / 80% 92% 100% 100%;
+  right: -105px;
+  top: -110px;
+}
+footer div.greybg {
+  background: #d1d1d1;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  border-radius: 100% 89% 87% 98% / 80% 92% 100% 100%;
+  right: -190px;
+  top: -28px;
+}
+footer div.ftop {
+  display: flex;
+  justify-content: space-between;
+}
+footer div.ftop div.left {
+  width: 40%;
+}
+footer div.ftop div.left div.imgcontainer {
+  width: 650px;
+}
+footer div.ftop div.left div.imgcontainer img {
+  display: block;
+  width: 100%;
+  border-radius: 100% 89% 87% 98% / 80% 92% 100% 100%;
+  height: 540px;
+}
+footer div.ftop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+footer div.ftop div.right h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+footer div.ftop div.right {
+  width: 40%;
+}
+footer div.ftop div.right form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer div.ftop div.right form input {
+  background: #fff;
+  height: 50px;
+  width: 240px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+footer div.ftop div.right form textarea {
+  width: 700px;
+  height: 80px;
+  background: #f7f7f7;
+  margin-bottom: 32px;
+  border-radius: 8px;
+}
+footer div.ftop div.right form a.button {
+  background: #5e8c42;
+  padding: 14px 48px;
+  border-radius: 34px;
+  color: #fff;
+  display: inline-block;
+}
+footer div.fbottom {
+}
+footer div.fbottom hr {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-bottom: 34px;
+}
+footer div.fbottom div.fcontents {
+  display: flex;
+  justify-content: space-around;
+}
+footer div.fbottom div.fcontents div.first {
+}
+footer div.fbottom div.fcontents div.first h1 {
+}
+footer div.fbottom div.fcontents div.first h4 {
+}
+footer div.fbottom div.fcontents div.first ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer div.fbottom div.fcontents div.first ul li {
+}
+footer div.fbottom div.fcontents div.first ul li span {
+}
+footer div.fbottom div.fcontents div.first ul li span img {
+}
+footer div.fbottom div.fcontents div.blog {
+}
+footer div.fbottom div.fcontents div.blog h1 {
+}
+footer div.fbottom div.fcontents div.blog h4 {
+}
+footer div.fbottom div.fcontents div.about {
+}
+footer div.fbottom div.fcontents div.about h1 {
+}
+footer div.fbottom div.fcontents div.about h4 {
+}
+footer div.fbottom div.fcontents div.product {
+}
+footer div.fbottom div.fcontents div.product h1 {
+}
+footer div.fbottom div.fcontents div.product h4 {
+}
 
 
