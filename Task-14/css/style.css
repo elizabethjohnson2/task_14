@@ -953,16 +953,116 @@ footer div.ftop div.left div.imgcontainer img {
 }
 
 
-}@media all and (max-width:1380px){
+}@media all and (max-width:1080px){
+  #service section.bottom ul li div.logo.two {
+    left: 419px;
+}
+#service section.bottom ul li div.logo.three {
+  left: 724px;
+}
+#work section.content div.right div.img img {
+  display: none;
+}
 
-}@media all and (max-width:1380px){
 
-}@media all and (max-width:1380px){
+}@media all and (max-width:980px){
+  #home .wrapper #spotlight .content h1 {
+    width: 90%;
+  }
+  #about div ul li p {
+    width: 100%;
+  }
+  #about div ul {
+    width: 90%;
+  }
+  #service section.bottom ul li div.logo {
+    left: 85px;
+}
+#service section.bottom ul li div.logo.two {
+  left: 325px;
+}
+#service section.bottom ul li div.logo.three {
+  left: 560px;
+}
+#bottom .content div.left {
+  width: 5%;
+}
+#bottom .content div.left div.img {
+  display: none;
+}
+#bottom .content div.right {
+  width: 100%;
+}
+#main section.content div.right div.two {
+  left: -74px;
+}
+#work {
+  background-image: none;
+}
+footer div.ftop div.left div.imgcontainer img {
+  height: 260px;
+}
+}@media all and (max-width:768px){
 
-}@media all and (max-width:1380px){
+  #home .wrapper header .middle ul {
+    display: none;
+  }
+}@media all and (max-width:640px){
+  #work {
+    display: none;
+  }
+  #service {
+    display: none;
+  }
 
-}@media all and (max-width:1380px){
+}@media all and (max-width:480px){
+  #home .wrapper #spotlight .content h1 {
+    color: #000;
+  }
+  #home .wrapper #spotlight .content p {
+    color: #000;
+  }
+  #main {
+    display: none;
+  }
+  #brands section.content div.top h2 {
+    padding-top: 150px;
+  }
+  #brands section.content div.bottom {
+    flex-wrap: wrap;
+  }
+  #brands section.content div.bottom ul li {
+    width: 21%;
+}
+footer div.ftop div.left div.imgcontainer img {
+  height: 218px;
+}
 
-}@media all and (max-width:1380px){
+footer div.ftop div.left {
+  display: none;
+}
+footer div.ftop div.right {
+  width: 99%;
+}
+footer div.fbottom div.fcontents {
+  flex-wrap: wrap;
+}
 
+}@media all and (max-width:360px){
+  
+#home .wrapper #spotlight .content h1 {
+  font-size: 37px;
+}
+#brands section.content div.top h2 {
+  font-size: 30px;
+}
+#brands section.content div.bottom ul {
+  flex-wrap: wrap;
+}
+#brands section.content div.bottom ul li {
+  width: 45%;
+}
+footer div.fbottom div.fcontents div{
+  margin-bottom: 15px;
+}
 }
