@@ -879,6 +879,7 @@ footer div.fbottom div.fcontents div.product h1 {
 footer div.fbottom div.fcontents div.product h4 {
   color: #fff;
 }
+footer div.ftop div.left {}
 
 /* Responsive */
 @media all and (max-width:1380px){
@@ -906,8 +907,50 @@ footer div.fbottom div.fcontents div.product h4 {
 @media all and (max-width:1280px){
   #home {
     background-size: 100%;
-    
   }
+  #about {
+    top: -220px;
+  }
+  #service {
+    padding: 0;
+  }
+  #service section.bottom ul li div.logo {
+    left: 130px;
+  }
+  #service section.bottom ul li div.logo.two {
+    left: 450px;
+}
+#service section.bottom ul li div.logo.three {
+  left: 773px;
+}
+#bottom .content div.left img {
+  width: 350px;
+  height: 300px;
+}
+#bottom .content div.right {
+  width: 65%;
+}
+#main section.content div.left h1 {
+  display: none;
+}
+#main section.content div.right div.two {
+  left: 10px;
+}
+#brands section.content div.middle div.bg-img {
+  display: none;
+}
+#brands section.content div.middle div.content {
+  width: 100%;
+}
+footer div.ftop div.right {
+  width: 50%;
+}
+footer div.ftop div.left div.imgcontainer {
+  width: 85%;
+}
+footer div.ftop div.left div.imgcontainer img {
+  height: 400px;
+}
 
 
 }@media all and (max-width:1380px){
