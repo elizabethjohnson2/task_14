@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  max-width:1980px;
   vertical-align: baseline;
   background: transparent;
   font-weight: normal;
@@ -110,7 +111,7 @@ br.clear {
   justify-content: space-between;
 }
 #home {
-  background-image: url(../Assets/Subtract.png), url(../Assets/Vector\ 279.png);
+  background-image: url("../Assets/Subtract.png"), url("../Assets/Vector\ 279.png");
   background-repeat: no-repeat;
   /* background-size: 100% 100%, 100% 100%; */
   /* background-position: center top, center top; */
@@ -126,9 +127,9 @@ br.clear {
   height: 100px;
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   max-width: 1360px;
-  margin: auto 0;
+  margin: 0 auto;
   align-items: center;
 }
 
@@ -741,6 +742,7 @@ footer {
   position: relative;
   /* z-index: 1000; */
   bottom: 0;
+  padding-bottom: 50px;
 
 }
 footer div.greenbg {
@@ -879,4 +881,45 @@ footer div.fbottom div.fcontents div.product h4 {
 }
 
 /* Responsive */
+@media all and (max-width:1380px){
+  footer div.greybg {
+    display: none;
+  }
+  footer div.greenbg {
+    right: 0;
+  }
+  #service section.bottom ul li div.logo.three {
+    left: 947px;
+  }
+  #service section.bottom ul li div.logo.two {
+    left: 553px;
+}
+#bottom .content div.right {
+  padding: 0;
+}
+#brands section.content div.bottom ul li {
+  width: 18%;
+}
 
+}
+
+@media all and (max-width:1280px){
+  #home {
+    background-size: 100%;
+    
+  }
+
+
+}@media all and (max-width:1380px){
+
+}@media all and (max-width:1380px){
+
+}@media all and (max-width:1380px){
+
+}@media all and (max-width:1380px){
+
+}@media all and (max-width:1380px){
+
+}@media all and (max-width:1380px){
+
+}
